@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+    <head>
+        <title>Shopping</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/3bc7dbd9d5.js" crossorigin="anonymous"></script>
+    </head>
+    <header>
+        <div class="container1">
+            <div id="nav-logo">
+                <h1><i class="fa-brands fa-shopify"></i>Sujriti</h1>
+            </div>
+            <div id="nav-empty"></div>
+            <div id="nav-login">
+                <h2 id="option"><a href="D:\Exam assessment\loginpage.html">Login</a></h2>
+                <h2 id="option"><a href="D:\Exam assessment\createaccountpage.html">Register</a></h2>
+            </div>
+        </div>
+        <div class="secondnav">
+            <div class="secondnav-title">
+                <h2 id="option"><a href="D:\Exam assessment\Mainpage.html">Home</a></h2>
+            </div>
+            <div class="secondnav-title">
+                <div class="secondnav-searchbar">
+                    <input type="text" placeholder="Search" name="search">
+                    <span class=" fa fa-search"></span>
+                </div>
+            </div>
+            <div class="secondnav-title">
+                <h2 id="option"><a href="D:\Exam assessment\productpage.html">All</a></h2>
+                <h2 id="option"><a href="D:\Exam assessment\Aboutus.html">About</a></h2>
+                <h2 id="option"><a href="D:\Exam assessment\contactus.html">Contact</a></h2>
+                <h2 id="option"><a href="D:\Exam assessment\payment.html">Payment</a></h2>
+                <h2 id="option"><a href="D:\Exam assessment\cart.html">Cart</a>
+                </h2>
+            </div>
+        </div>
+    </header>
+
+
+    <body>
+        <div class="body-menu-adv">
+            <div id="body-menu-empty">
+            </div>
+            <div id="body-menu-product">
+                <img style="height: 50vh; width: 100%;" src="./easter.jpg">
+            </div>
+            <div id="body-menu-empty1">
+            </div>
+        </div>
+        <div class="body-container">
+            <div id="body-empty1"></div>
+            <div id="body-products">
+                <div id="body-product">
+                    <h3>Electronics</h3>
+                    <a href="D:\Exam assessment\electronics.html"><img
+                            style="width: 80%; height: 30vh;" src="./electronics.jpg"></a>
+                </div>
+
+                <div id="body-product">
+                    <h3>Fashion</h3>
+                    <a href="D:\Exam assessment\Fashion.html"><img style="width: 80%; height: 30vh;" src="./clothes.jpg"></a>
+                </div>
+
+                <div id="body-product">
+                    <h3>Beauty Picks</h3>
+                    <a href="D:\Exam assessment\beautypicks.html"><img style="width: 80%; height: 30vh;" src="beauty.jpg"></a>
+                </div>
+            </div>
+            <div id="body-empty2"></div>
+        </div>
+    </body>
+
+
+
+    <footer>
+        <div class="row">
+
+            <div class="footer-column">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>Lakedale Road</p>
+                <p>Plumstead, Greenwich</p>
+                <p>Plumstead High Street, London</p>
+                <p class="email-id">Sujalshrestha27@gmail.com</p>
+                <h4>07474997767</h4>
+            </div>
+
+            <div class="footer-column">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="D:\Exam assessment\Mainpage.html">Home</a></li>
+                    <li><a href="D:\Exam assessment\Aboutus.html">About Us</a></li>
+                    <li><a href="D:\Exam assessment\contactus.html">Contact Us</a></li>
+                    <li><a href="D:\Exam assessment\payment.html">Payment</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Follow Us <div class="underline"><span></span></div></h3>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">2023 Sujriti &#169 All Rights Reserved</p>
+    </footer>
+
+    
+    
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .fa-shopify, h1{
+        margin: 5px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+   
+    a{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        margin-left: 40px;
+        font-weight: 500;
+    }
+
+    a::after{
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: -6px;
+        left: 0;
+        background: white;
+        border-radius: 5px;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 1s;
+    }
+    a:hover:after{
+        transform-origin: left;
+        transform:scaleX(1)
+    }
+    .container1{
+        background-color: #FFA500;
+        display: flex;
+        width: 100%;
+    }
+
+    #nav-logo{
+        justify-content: start;
+        width: 20%;
+    }
+
+    #nav-login{
+        width: 30%;
+        font-size: 15px;
+        display: flex;
+        justify-content: end;
+    }
+    #nav-empty{
+        width: 50%;
+    }
+
+    #option {
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 18px; 
+        text-decoration: none;  
+    }
+
+    .secondnav{
+        width: 100%;
+        display: flex;
+        height: 10vh;
+        background-color: #0A1172;
+        
+    }
+
+    .secondnav-title{
+        display: flex;
+        width: 40%;
+        justify-content: center;
+		align-items: center; 
+    }
+    .secondnav .secondnav-searchbar{
+	background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 60px ;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+    }
+
+    .secondnav .secondnav-searchbar input{
+		background-color: transparent;
+		height: 100%;
+		border: none;
+		color: #000000;
+		outline: none;
+		padding: 0 10px;
+		font-size: 20px;
+		width: 350px;
+        text-align: center;
+	}
+	.secondnav .secondnav-searchbar span{
+		color: #FFA500;
+		border-start-end-radius: 20px;
+		border-bottom-right-radius: 20px;
+		font-size: 20px;
+		height: 20px;
+		padding: 8px;
+		position: relative;
+		z-index: 1;
+	}
+	.secondnav .secondnav-searchbar span::after{
+		height: 100%;
+		width: 0%;
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+
+    .body-menu-adv{
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        margin-top : 10px;
+        margin-bottom: 10px;
+
+    }
+    #body-menu-empty{
+        width: 20%;
+        justify-content: start;
+    }
+    #body-menu-product{
+       
+        justify-content: center;
+        
+    }
+    #body-menu-product:hover{
+        transform: scale(1.05);
+        transition-duration: 1.5s;
+        cursor: pointer;
+    }
+    #body-menu-empty1{
+        width: 20%;
+        justify-content: end;
+    }
+    .body-container{
+        width:100%;
+        display: flex;
+       padding: 30px 5px;
+        height: 50vh;
+        justify-content: center;
+
+    }
+    #body-empty1{
+        width: 10%;
+        justify-content: start;
+    }
+    #body-products{
+        width: 80%;
+        height: 40vh;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        gap: 30px;
+       
+    }
+
+    #body-product{
+        width: 50%;
+        height: 40vh;
+        box-shadow: 2px 5px 5px 5px gray;
+        padding-right: 37px;
+        padding-top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    #body-product:hover{
+        background-color: #3195d3;
+        border-radius: 25px;
+        transition-duration: 1s;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    #body-empty2{
+        width: 10%;
+        justify-content: end;
+    }
+
+
+    footer{
+        width: 100%;
+        bottom: 0;
+        background: linear-gradient(to right, #00093c, #2d0b00);
+        color: #fff;
+        padding: 100px 0 30px;
+        border-top-left-radius: 125px;
+        font-size: 13px;
+        line-height: 20px;
+        }
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-column{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.underline{
+    width: 100%;
+    height: 2px;
+    background: #3195d3;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+.footer-column h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #FFA500;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-column .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
+</style>
