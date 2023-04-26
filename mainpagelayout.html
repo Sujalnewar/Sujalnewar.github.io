@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+    <title> Main page layout</title>
+</head>
+<header>
+    <div class="header-bar">
+
+        <div id="logo-nav" >
+            <h3>Logo</h3>
+        </div>
+
+        <div id="login-nav">
+            <h3>login/register</h3>
+        </div>
+    </div>
+</header>
+
+<nav class="nav-bar">
+    <div id="search">
+        <h3>searchbar/navigation-bar</h3>
+    </div>
+</nav>
+
+<body>
+
+    <div class="body-adv-cont">
+        
+    <div id="body-adv">
+        <h2>product for advertisement</h2>
+    </div>
+   
+</div>
+
+    <div class="container">
+        
+        <div id="first">
+            <h3>Product-1</h3>
+        </div>
+        <div id="first">
+            <h3>Product-2</h3>
+        </div>
+        <div id="first">
+            <h3>Product-3</h3>
+        </div>
+       
+    </div>
+
+    <div class="desc">
+        <h3>Description</h3>
+    </div>
+
+    <div class="footer">
+        <h3>Footer</h3></div>
+</body>
+
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .header-bar{
+        background-color: lightgrey;
+        width: 100%;
+        height: 40px;
+        line-height: 30px;
+        display: flex;
+        margin-bottom: 5px;
+        
+    }
+
+    #logo-nav{
+        text-align: left;
+        width: 80%;
+        padding-left: 10px;
+    }
+
+    #login-nav{
+        text-align: right;
+        width: 20%;
+        padding-right: 10px;
+    }
+
+    .nav-bar{
+        width: 100%;
+        height: 40px;
+        background-color:lightgrey ;
+    }
+    #search{
+        text-align: center;
+
+    }
+    .body-adv-cont{
+        width: 100%;
+        height: 30vh;
+        margin: 2px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+        
+    }
+  
+    #body-adv{
+        width: 70%;
+        height: 30vh;
+        background-color: gray;
+        justify-items: center;
+        text-align: center;
+    }
+     
+    .container{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+   
+
+    #first{
+        width: 19%;
+        background-color: gray;
+        margin: 5px;
+        
+        
+    }
+    #first h3{
+        text-align: center;
+        transform: translate(0, 10vh);
+    }
+    
+
+    .desc{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        background-color: grey;
+    }
+    .footer{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: lightgrey;
+        margin-top: 10px;
+    }
+
+</style>

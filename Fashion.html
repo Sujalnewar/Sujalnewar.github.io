@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Fashion
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3bc7dbd9d5.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <div class="secondnav">
+        <div class="secondnav-title">
+            <h2 id="button-1"><a href="D:\Exam assessment\Mainpage.html">Home</a></h2>
+        </div>
+        <div class="secondnav-title">
+            <div class="secondnav-searchbar">
+                <input type="text" placeholder="Search" name="search">
+                <span class=" fa fa-search"></span>
+            </div>
+        </div>
+        <div class="secondnav-title">
+            <h2 id="button-1"><a href="D:\Exam assessment\productpage.html">All</a></h2>
+            <h2 id="button-1"><a href="D:\Exam assessment\Aboutus.html">About</a></h2>
+            <h2 id="button-1"><a href="D:\Exam assessment\contactus.html">Contact</a></h2>
+            <h2 id="button-1"><a href="D:\Exam assessment\payment.html">Payment</a></h2>
+            <h2 id="button-1"><a href="D:\Exam assessment\cart.html">Cart</a>
+            </h2>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="container-box">
+        <div class="row row-2">
+            <h2 class="title">Fashion</h2>
+            <select>
+                <option>Sort by: Featured</option>
+                <option>Sort by: Price</option>
+                <option>Sort by: Rating</option>
+                <option>Sort by: Customer review</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="./nike.jpg">
+                <h4>Nike Uni-Sex T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>£15.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./bag.jpg">
+                <h4>Red School Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>£50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./puff jacket.jpg">
+                <h4>Puff Gray Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>£118.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>>></span>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="last-row">
+
+        <div class="footer-column">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            <p>Lakedale Road</p>
+            <p>Plumstead, Greenwich</p>
+            <p>Plumstead High Street, London</p>
+            <p class="email-id">Sujalshrestha27@gmail.com</p>
+            <h4>07474997767</h4>
+        </div>
+
+        <div class="footer-column">
+            <h3>Links <div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="D:\Exam assessment\Mainpage.html">Home</a></li>
+                <li><a href="D:\Exam assessment\Aboutus.html">About Us</a></li>
+                <li><a href="D:\Exam assessment\contactus.html">Contact Us</a></li>
+                <li><a href="D:\Exam assessment\payment.html">Payment</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Follow Us <div class="underline"><span></span></div></h3>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">2023 Sujriti &#169 All Rights Reserved</p>
+</footer>
+
+<style>
+    *{
+   margin: 0%;
+   padding: 0%;
+}
+
+.container{
+    display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#button-1 {
+   padding: 5px 10px;
+   color: white;
+   border-radius: 5px;
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   font-size: 18px; 
+   text-decoration: none;  
+}
+.secondnav{
+   width: 100%;
+   display: flex;
+   height: 10vh;
+   background-color: #0A1172;
+   
+}
+.secondnav-title{
+   display: flex;
+   width: 40%;
+   justify-content: center;
+   align-items: center; 
+}
+.secondnav .secondnav-searchbar{
+background-color: rgb(255, 255, 255);
+display: flex;
+border-radius: 60px ;
+margin: auto 0;
+height: 35px;
+line-height: 35px;
+}
+
+.secondnav .secondnav-searchbar input{
+   background-color: transparent;
+   height: 100%;
+   border: none;
+   color: #000000;
+   outline: none;
+   padding: 0 10px;
+   font-size: 20px;
+   width: 350px;
+   text-align: center;
+}
+.secondnav .secondnav-searchbar span{
+   color: #FFA500;
+   border-start-end-radius: 20px;
+   border-bottom-right-radius: 20px;
+   font-size: 20px;
+   height: 20px;
+   padding: 8px;
+   position: relative;
+   z-index: 1;
+}
+.secondnav .secondnav-searchbar span::after{
+   height: 100%;
+   width: 0%;
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+   position: relative;
+   margin-left: 40px;
+   font-weight: 500;
+}
+
+a::after{
+   content:'';
+   position: absolute;
+   width: 100%;
+   height: 3px;
+   bottom: -6px;
+   left: 0;
+   background: white;
+   border-radius: 5px;
+   transform-origin: right;
+   transform: scaleX(0);
+   transition: transform 1s;
+}
+a:hover:after{
+   transform-origin: left;
+   transform:scaleX(1)
+}
+
+
+.container-box{
+   max-width: 1080px;
+   margin: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+   
+   
+}
+.col-4{
+   flex-basis: 33%;
+   padding: 10px;
+   min-width: 200px;
+   margin-bottom: 50px;
+   transition: transform 0.5s;
+   cursor: pointer;
+}
+.col-4 img{
+   height: 200px;
+   width: 50%;
+   box-shadow: 0 0 7px red;
+}
+.col-4 p{
+   font-size: 14px;
+}
+.col-4:hover{
+   transform: translateY(-10px);
+}
+.row{
+   display: flex;
+  
+}
+
+.title{
+   text-align: center;
+   margin: 0 auto 80px;
+   position: relative;
+   line-height: 60px;
+   color: rgb(78, 78, 78);
+}
+
+.title:after{
+   content: '';
+   background: lightcoral;
+   width: 80px;
+   height: 5px;
+   border-radius: 5px;
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+h4{
+   color: rgb(78, 78, 78);
+   font-weight: normal;
+   
+}
+
+.rating .fa{
+   color: orange;
+}
+
+.row-2{
+   justify-content: space-between;
+   margin: 50px auto 30px;
+}
+
+
+select{
+   border: 1px solid lightcoral;
+   height: 50px;
+}
+select:focus{
+   outline:none;
+}
+
+.page-btn{
+   margin: 0 auto 80px;
+}
+.page-btn span{
+   display: inline-block;
+   border: 1px solid #ff523b;
+   margin-left: 10px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   cursor: pointer;
+}
+.page-btn span:hover{
+   background-color: #ff523b;
+   color: cornsilk;
+}
+
+
+footer{
+   width: 100%;
+   bottom: 0;
+   background: linear-gradient(to right, #00093c, #2d0b00);
+   color: #fff;
+   padding: 100px 0 30px;
+   border-top-left-radius: 125px;
+   font-size: 13px;
+   line-height: 20px;
+   }
+
+.last-row{
+width: 85%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.footer-column{
+flex-basis: 25%;
+padding: 10px;
+}
+.underline{
+width: 100%;
+height: 2px;
+background: #3195d3;
+border-radius: 3px;
+position: absolute;
+top: 25px;
+left: 0;
+}
+
+.footer-column h3{
+width: fit-content;
+margin-bottom: 40px;
+position: relative;
+}
+.email-id{
+width: fit-content;
+border-bottom: 1px solid #FFA500;
+margin: 20px 0;
+}
+ul li{
+list-style: none;
+margin-bottom: 12px;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+}
+
+.footer-column .fa-brands{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+color: #000;
+background: #fff;
+margin-right: 15px;
+cursor: pointer;
+}
+
+hr{
+width: 90%;
+border: 0;
+border-bottom: 1px solid #ccc;
+margin: 20px auto;
+}
+.copyright{
+text-align: center;
+}
+</style>
